@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "AI Visibility SaaS",
   description:
     "AI-powered website visibility analysis, auditing, scoring, and recommendations.",
+  verification: {
+    google: "4BBieC1-aorlJaBfzfbKBobeK_sTlvZoF3C6PYSI8I4",
+  },
 };
 
 export default function RootLayout({
