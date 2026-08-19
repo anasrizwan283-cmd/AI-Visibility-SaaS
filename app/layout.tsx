@@ -34,7 +34,10 @@ export default function RootLayout({
     >
       <head>
         {/* Google Tag Manager */}
-        <Script id="google-tag-manager" strategy="afterInteractive">
+        <Script
+          id="google-tag-manager"
+          strategy="beforeInteractive"
+        >
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -52,7 +55,10 @@ export default function RootLayout({
             src="https://www.googletagmanager.com/ns.html?id=GTM-TX4L6FT8"
             height="0"
             width="0"
-            style={{ display: "none", visibility: "hidden" }}
+            style={{
+              display: "none",
+              visibility: "hidden",
+            }}
           />
         </noscript>
 
