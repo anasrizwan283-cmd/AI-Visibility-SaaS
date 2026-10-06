@@ -17,7 +17,7 @@ def add_column_if_missing(
 
     if column_name in existing_columns:
         print(
-            f"✓ {table_name}.{column_name} already exists"
+            f"{table_name}.{column_name} already exists"
         )
         return
 
@@ -31,7 +31,7 @@ def add_column_if_missing(
         )
 
     print(
-        f"+ Added {table_name}.{column_name}"
+        f"Added {table_name}.{column_name}"
     )
 
 
